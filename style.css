@@ -1,0 +1,48 @@
+body{
+        background-color: rgb(53, 151, 55);
+        color: black;
+        text-align: center;
+    }
+
+
+
+
+
+    .header
+{
+border: 1px solid green;
+}
+
+.box{
+
+    padding:  16px;
+    border: 1px solid blue; 
+
+}
+.parent>* {
+
+    border: 2px solid red;
+}
+[class^=box] {
+
+ border: 1px solid red;
+}
+.parent {
+
+    border: 2px solid black;
+}
+
+*~* {
+
+    margin-top: 20px;
+}
+
+.butt{
+
+color: rgba(99, 20, 225, 0.218);
+
+}
+.butt:active {
+
+    color: rgb(110, 117, 220);
+}
